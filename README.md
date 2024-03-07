@@ -25,3 +25,5 @@ Bu proje, bir anaokulunun tanıtımını yapan, yeni kayıtlar için ön kayıtl
 <li>Bootstrap</li>
 <h2>Proje Ekran Görüntüleri</h2>
 <h5>DataBase Diagram</h5>
+
+![daigram](https://github.com/onayyy/KidKinder/assets/32500921/82e5211a-5523-41aa-afe5-ee57dcf1613e)
