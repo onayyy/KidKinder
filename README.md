@@ -4,7 +4,7 @@ Dinamik ve yönetilebilir kreş sitesi.
 Bu proje, bir anaokulunun tanıtımını yapan, yeni kayıtlar için ön kayıtları kabul eden, mesajları yöneten ve daha fazlasını yapan bir web uygulamasıdır. Entity Framework CodeFirst yaklaşımı kullanılarak geliştirilmiş dinamik bir web sitesidir.
 </br>
 <h2>Teknik Özellikler</h2>
-<h6>CRUD İşlemleri: </h6> Kullanıcılar, özgeçmiş bilgilerini ekleyebilir, düzenleyebilir, silebilir ve görüntüleyebilir.
+<h6>CRUD İşlemleri: </h6> Kullanıcılar, sayfa bilgilerini ekleyebilir, düzenleyebilir, silebilir ve görüntüleyebilir.
 <h6>One Page Tema: </h6> Tema, daha kolay yönetim ve özelleştirme için partiallara ayrılmıştır.
 </br>
 <h2>Admin Paneli Özellikleri</h2>
