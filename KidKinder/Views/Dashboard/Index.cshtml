@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="pcoded-inner-content">
+    <div class="main-body">
+        <div class="page-wrapper">
+            <div class="page-body">
+                <div class="row">
+                    @Html.Action("DashboardPartial1")
+                    @Html.Action("DashboardPartial2")
+                    @Html.Action("DashboardPartial3")
+                    @Html.Action("DashboardPartial4")
+                    @Html.Action("DashboardPartial5")
+                </div>
+            </div>
+        </div>
+        <div id="styleSelector"> </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿@model KidKinder.Entites.MailSubscribe
+@{
+    ViewBag.Title = "UpdateMailSubscribe";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="pcoded-inner-content">
+    <!-- Main-body start -->
+    <div class="main-body">
+        <div class="page-wrapper">
+            <!-- Page body start -->
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- Basic Form Inputs card start -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Yeni Abone Girişi</h5>
+                                <span>Abone ile ilgili verilieri eksiksiz olarak doldurunuz</span>
+                            </div>
+                            <div class="card-block">
+                                <form method="post">
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Id</label>
+                                        <div class="col-sm-10">
+                                            @Html.TextBoxFor(x => x.MailSubscribeId, new { @class = "form-control", @readonly = true })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Ad Soyad</label>
+                                        <div class="col-sm-10">
+                                            @Html.TextBoxFor(x => x.NameSurname, new { @class = "form-control" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-outline-primary">Abone Güncelle</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
